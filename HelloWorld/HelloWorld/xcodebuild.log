@@ -1,0 +1,76 @@
+User defaults from command line:
+    IDEDerivedDataPathOverride = /Users/mahmudriad/.jenkins/workspace/HelloWorldiOSApp/HelloWorld/build/reports/BundleOne
+    IDETestRunOnlyIdentifiers = (
+    BundleOne
+)
+    IDETestRunSpecificationPath = /Users/mahmudriad/.jenkins/workspace/HelloWorldiOSApp/HelloWorld/All/Build/Products/BundleUiTest_Scheme_iphonesimulator11.0-x86_64.xctestrun
+
+2018-02-16 17:31:37.377180+0600 BundleOne-Runner[23474:396383] +[CATransaction synchronize] called within transaction
+2018-02-16 17:31:37.461660+0600 BundleOne-Runner[23474:396383] Running tests...
+2018-02-16 17:31:39.012012+0600 BundleOne-Runner[23474:396383] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2018-02-16 17:31:40.270
+Test Suite 'BundleOne.xctest' started at 2018-02-16 17:31:40.271
+Test Suite 'CategoryOne' started at 2018-02-16 17:31:40.271
+Test Case '-[BundleOne.CategoryOne testBackToLogInPage]' started.
+    t =     0.00s Start Test at 2018-02-16 17:31:40.272
+    t =     0.16s Set Up
+    t =     0.17s     Open test.Hello-World
+    t =     0.26s         Launch test.Hello-World
+    t =     7.55s             Wait for test.Hello-World to idle
+    t =     9.71s Tap "Log In Anyway" Button
+    t =     9.71s     Wait for test.Hello-World to idle
+    t =     9.78s     Find the "Log In Anyway" Button
+    t =     9.90s         Wait for test.Hello-World to idle
+    t =     9.96s     Synthesize event
+    t =    10.09s     Wait for test.Hello-World to idle
+    t =    10.91s Tap "Back" Button
+    t =    10.91s     Wait for test.Hello-World to idle
+    t =    10.98s     Find the "Back" Button
+    t =    11.10s         Wait for test.Hello-World to idle
+    t =    11.16s     Synthesize event
+    t =    11.29s     Wait for test.Hello-World to idle
+    t =    11.86s Tear Down
+Test Case '-[BundleOne.CategoryOne testBackToLogInPage]' passed (12.061 seconds).
+Test Case '-[BundleOne.CategoryOne testBackToLogInPageNegativeCase]' started.
+    t =     0.00s Start Test at 2018-02-16 17:31:52.334
+    t =     0.05s Set Up
+    t =     0.15s     Open test.Hello-World
+    t =     0.20s         Launch test.Hello-World
+    t =     0.20s             Terminate test.Hello-World:23479
+    t =     6.61s             Wait for test.Hello-World to idle
+    t =     8.71s Tap "Log In Anyway" Button
+    t =     8.71s     Wait for test.Hello-World to idle
+    t =     8.77s     Find the "Log In Anyway" Button
+    t =     8.89s         Wait for test.Hello-World to idle
+    t =     8.95s     Synthesize event
+    t =     9.07s     Wait for test.Hello-World to idle
+    t =    10.39s Tap "Back" Button
+    t =    10.39s     Wait for test.Hello-World to idle
+    t =    10.46s     Find the "Back" Button
+    t =    10.58s         Wait for test.Hello-World to idle
+    t =    10.64s     Synthesize event
+    t =    10.77s     Wait for test.Hello-World to idle
+    t =    11.34s Assertion Failure: CategoryOne .swift:40: XCTAssertTrue failed - Dashboard page exists falsely
+    t =    11.39s Tear Down
+Test Case '-[BundleOne.CategoryOne testBackToLogInPageNegativeCase]' failed (11.597 seconds).
+Test Case '-[BundleOne.CategoryOne testLogInAnyway]' started.
+    t =     0.00s Start Test at 2018-02-16 17:32:03.933
+    t =     0.05s Set Up
+    t =     0.15s     Open test.Hello-World
+    t =     0.20s         Launch test.Hello-World
+    t =     0.20s             Terminate test.Hello-World:23483
+    t =     6.69s             Wait for test.Hello-World to idle
+    t =     8.92s Tap "Log In Anyway" Button
+    t =     8.92s     Wait for test.Hello-World to idle
+    t =     8.98s     Find the "Log In Anyway" Button
+    t =     9.10s         Wait for test.Hello-World to idle
+    t =     9.16s     Synthesize event
+    t =     9.28s     Wait for test.Hello-World to idle
+    t =     9.53s Tear Down
+Test Case '-[BundleOne.CategoryOne testLogInAnyway]' passed (9.730 seconds).
+Test Suite 'CategoryOne' failed at 2018-02-16 17:32:13.664.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 33.389 (33.392) seconds
+Test Suite 'BundleOne.xctest' failed at 2018-02-16 17:32:13.665.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 33.389 (33.394) seconds
+Test Suite 'All tests' failed at 2018-02-16 17:32:13.666.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 33.389 (33.396) seconds
